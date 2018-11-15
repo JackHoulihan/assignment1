@@ -7,7 +7,7 @@
         <div id="member fav_number"> Favourite number: {{member.fav_number}}</div>
         
 </div>
+<p><a href = "{% url 'member_update' member_id=member.id %}">Update this informtion</a>
 
-<p><a href = "{% url 'member_list' member_id=member.id %}">Update this informtion</a>
 {% endblock %}
 
